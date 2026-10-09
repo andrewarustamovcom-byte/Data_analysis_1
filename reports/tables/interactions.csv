@@ -1,0 +1,17 @@
+﻿segment,metric,statistic,df,p_value,family,method,p_adjusted,correction,significant_adjusted
+device,gmv_user,19.518742196845245,2.0,5.775093036806465e-05,interaction,"Asymptotic Wald interaction, independent strata",0.0008085130251529051,fdr_bh,True
+device,margin_user,11.171236599564747,2.0,0.0037514295444758413,interaction,"Asymptotic Wald interaction, independent strata",0.02626000681133089,fdr_bh,True
+device,return_user_window,7.478512597098767,2.0,0.023771775662991025,interaction,"Asymptotic Wald interaction, independent strata",0.05546747654697906,fdr_bh,False
+device,support_user_window,8.942371440642852,2.0,0.011433750579374128,interaction,"Asymptotic Wald interaction, independent strata",0.03841168963814843,fdr_bh,True
+region,gmv_user,4.645471891153964,7.0,0.7031365699916461,interaction,"Asymptotic Wald interaction, independent strata",0.7031365699916461,fdr_bh,False
+region,margin_user,7.901965740553506,7.0,0.3413178661424519,interaction,"Asymptotic Wald interaction, independent strata",0.4206041035036559,fdr_bh,False
+region,return_user_window,,,,interaction,Not tested: rare events in at least one level; Wald calibration unreliable,,,False
+region,support_user_window,,,,interaction,Not tested: rare events in at least one level; Wald calibration unreliable,,,False
+is_premium,gmv_user,6.074017207852552,1.0,0.01371846058505301,interaction,"Asymptotic Wald interaction, independent strata",0.03841168963814843,fdr_bh,True
+is_premium,margin_user,6.500231541299835,1.0,0.010786044515211497,interaction,"Asymptotic Wald interaction, independent strata",0.03841168963814843,fdr_bh,True
+is_premium,return_user_window,0.8360887100981502,1.0,0.36051780300313363,interaction,"Asymptotic Wald interaction, independent strata",0.4206041035036559,fdr_bh,False
+is_premium,support_user_window,0.1717203343203027,1.0,0.6785873961034825,interaction,"Asymptotic Wald interaction, independent strata",0.7031365699916461,fdr_bh,False
+tenure,gmv_user,5.153315386027767,3.0,0.16090877482819305,interaction,"Asymptotic Wald interaction, independent strata",0.2503025386216336,fdr_bh,False
+tenure,margin_user,4.868975083214213,3.0,0.18164672232901838,interaction,"Asymptotic Wald interaction, independent strata",0.2543054112606257,fdr_bh,False
+tenure,return_user_window,6.441163786005513,3.0,0.09201196311513869,interaction,"Asymptotic Wald interaction, independent strata",0.17120562662540648,fdr_bh,False
+tenure,support_user_window,6.301418901062321,3.0,0.0978317866430894,interaction,"Asymptotic Wald interaction, independent strata",0.17120562662540648,fdr_bh,False

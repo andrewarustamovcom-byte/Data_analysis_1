@@ -1,0 +1,5 @@
+﻿metric,method,statistic,p_value,rank_biserial,family,repeats,p_adjusted,correction,significant_adjusted
+gmv,Mann–Whitney with tie correction,314251595.0,9.191634414246523e-29,0.03437624789002314,distribution,,3.676653765698609e-28,fdr_bh,True
+gmv,KS statistic; user-label permutations (zeros/ties allowed),0.03372210245462348,0.0005,,distribution,1999.0,0.0005,fdr_bh,True
+margin,Mann–Whitney with tie correction,312113234.0,8.802843606515447e-19,0.02733771614346381,distribution,,1.7605687213030895e-18,fdr_bh,True
+margin,KS statistic; user-label permutations (zeros/ties allowed),0.030219235105803155,0.0005,,distribution,1999.0,0.0005,fdr_bh,True

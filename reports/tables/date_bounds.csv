@@ -1,0 +1,12 @@
+﻿table,field,min,max
+users,registration_date,2017-05-18 00:00:00,2026-07-01 00:00:00
+experiment_assignments,assignment_date,2026-07-01 00:00:00,2026-07-06 00:00:00
+sessions,session_date,2026-07-01 00:00:00,2026-07-30 00:00:00
+impressions,event_time,2026-07-01 08:00:00,2026-07-30 22:59:56
+clicks,event_time,2026-07-01 08:00:02,2026-07-30 22:59:55
+orders,order_date,2026-07-01 00:00:00,2026-07-30 00:00:00
+orders,return_date,2026-07-05 00:00:00,2026-09-04 00:00:00
+products,created_date,2021-01-01 00:00:00,2026-03-14 00:00:00
+sellers,joined_date,2020-01-01 00:00:00,2026-01-08 00:00:00
+support_tickets,ticket_date,2026-07-02 00:00:00,2026-08-03 00:00:00
+premium_subscriptions,premium_start_date,2023-10-26 00:00:00,2026-07-30 00:00:00

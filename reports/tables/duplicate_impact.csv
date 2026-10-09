@@ -1,0 +1,2 @@
+﻿flagged_impressions,linked_clicks,linked_orders,natural_key_duplicates,policy
+3193,310,25,0,keep_unique_events; flag-excluded CTR is sensitivity only

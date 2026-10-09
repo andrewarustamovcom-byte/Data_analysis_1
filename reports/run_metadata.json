@@ -1,0 +1,59 @@
+{
+  "created_utc": "2026-10-09T15:10:36.477134+00:00",
+  "python": "3.14.2",
+  "config": {
+    "data_dir": "/workspaces/Data_analysis_1",
+    "output_dir": "/workspaces/Data_analysis_1/reports",
+    "experiment_name": "ai_recommendations_homepage",
+    "start": "2026-07-01",
+    "end": "2026-07-30",
+    "alpha": 0.05,
+    "power": 0.8,
+    "expected_test_share": 0.5,
+    "srm_alpha": 0.0005,
+    "seed": 2026,
+    "bootstrap_repeats": 2000,
+    "permutation_repeats": 1999,
+    "followup_days": 30,
+    "observation_end": null,
+    "assume_complete_event_log": true,
+    "minimum_gmv_lift": null,
+    "max_return_increase_pp": null,
+    "max_support_increase_pp": null,
+    "support_cost_rub": null,
+    "ai_cost_per_impression_rub": null,
+    "assume_full_refund": false
+  },
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.3.0"
+  },
+  "source_sha256": {
+    "clicks.csv": "c0e1ead0931d90e91774fc7e245584f42d31639c386e4b1d0115033b1def86ca",
+    "data_dictionary.csv": "409906e719896004fdf5ed4512e858cee837a829570d122531bd50de455dfee4",
+    "experiment_assignments.csv": "da775c53c1d0c301c32854d17d4b61f9bf249224f91ca515b071fa92a44ce4b4",
+    "impressions.csv": "db6a81467714aa1692528ed91169fbdab39bb998049c729aa58b973d059db0f7",
+    "orders.csv": "7bdbb96f250787d9adc94303889fad5a3a2fe06e37f0857c6a71a1ccc1aef979",
+    "premium_subscriptions.csv": "97d55295ff6194b6f43c4ff2ac47f73f1ffea2734cf6ab3d265e29c37d6eb8ef",
+    "products.csv": "31aca510c9e94d07c08ee2f35a91bc53db6b2250f734635969ad676d91ef4abb",
+    "sellers.csv": "dc1d58c7c5033572b7ebcf0d51e1faed103930a44241bc25d1420d1248b5873d",
+    "sessions.csv": "e33a7e66f4aa5f8bb60f891a388e59f33013838c935095c62fa9617e56187ce7",
+    "support_tickets.csv": "cd49eef566d362f7a8dfcc48bd4f90d384e7e7e557052fd3cf5fcf1ba30c3f7b",
+    "users.csv": "3b86b2c8c33a040bfc393049c8f699ce5fc6b4b4fd18fbdc9dae5f3206a78825"
+  },
+  "ambiguous_first_assignments": 0,
+  "assumptions": [
+    "Randomization by user; 50/50 configurable",
+    "Complete event logging for structural zeros",
+    "Date-only initial assignment at start of day; ITT sensitivity needs confirmation",
+    "No snapshot date; post-window outcomes are recorded follow-up only",
+    "Margin already includes recorded returns; additional expense scenarios only"
+  ]
+}

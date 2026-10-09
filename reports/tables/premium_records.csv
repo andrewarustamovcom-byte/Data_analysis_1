@@ -1,0 +1,16 @@
+﻿group,is_premium,is_trial,premium_status,records,users
+control,0,0,active,142,142
+control,0,0,cancelled,10,10
+control,0,1,active,205,205
+control,0,1,cancelled,14,14
+control,1,0,active,24,24
+control,1,0,cancelled,2,2
+control,1,1,active,10,10
+control,1,1,cancelled,1,1
+test,0,0,active,210,210
+test,0,0,cancelled,12,12
+test,0,1,active,251,251
+test,0,1,cancelled,15,15
+test,1,0,active,26,26
+test,1,0,cancelled,2,2
+test,1,1,active,7,7

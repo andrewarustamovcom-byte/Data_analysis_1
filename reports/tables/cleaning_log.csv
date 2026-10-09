@@ -1,0 +1,9 @@
+﻿rule,group,users_kept,users_excluded,sessions_excluded,impressions_excluded,orders_excluded
+initial_unique_assignment,control,24815,0,0,0,0
+initial_unique_assignment,test,25185,0,0,0,0
+exclude_conflicts,control,24674,141,456,2940,19
+exclude_conflicts,test,25026,159,565,3675,25
+exclude_conflicts_and_bots,control,24473,342,3667,23728,38
+exclude_conflicts_and_bots,test,24828,357,3770,24500,42
+initial_assignment_sensitivity,control,24613,202,3231,20921,19
+initial_assignment_sensitivity,test,24987,198,3205,20825,17

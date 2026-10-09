@@ -1,0 +1,7 @@
+﻿metric,ci_low,ci_high,repeats,valid_repeats,seed,method
+gmv_user,59.46360769831498,91.00730404659399,2000,2000,2026,"Independent user bootstrap, percentile CI; no bootstrap p-value"
+margin_user,8.739599823609456,13.866087189103458,2000,2000,2026,"Independent user bootstrap, percentile CI; no bootstrap p-value"
+ctr,0.016165205409876312,0.018240883108093058,2000,2000,2026,"Independent user bootstrap, percentile CI; no bootstrap p-value"
+aov,-55.37749664206629,97.66044526860817,2000,2000,2026,"Independent user bootstrap, percentile CI; no bootstrap p-value"
+return_rate_observed,0.001687968834450129,0.023866714344013624,2000,2000,2026,"Independent user bootstrap, percentile CI; no bootstrap p-value"
+tickets_per_order_observed,-0.004388451814487771,0.014911158376194772,2000,2000,2026,"Independent user bootstrap, percentile CI; no bootstrap p-value"

@@ -1,0 +1,24 @@
+table,field,type,description
+users.csv,user_id,string,Primary key. Unique user identifier.
+users.csv,registration_date,date,User registration date.
+users.csv,region,string,User macro-region.
+users.csv,device,string,"Main device type: android, ios, web."
+users.csv,age_group,string,Age bucket.
+users.csv,traffic_source,string,Primary acquisition source.
+users.csv,is_premium,integer,1 if user had Premium at experiment start.
+users.csv,is_bot_candidate,integer,Synthetic anomaly flag: suspicious automated behavior.
+experiment_assignments.csv,assignment_id,string,Assignment event ID. Some users intentionally have duplicate assignment rows.
+experiment_assignments.csv,experiment_group,string,control or test.
+sessions.csv,session_id,string,Primary key. User visit/session.
+sessions.csv,experiment_group,string,"Experiment variant active in this session. For duplicate-assigned users, this may vary."
+impressions.csv,impression_id,string,Primary key. Product recommendation shown to user.
+impressions.csv,is_clicked,integer,1 if impression generated a click.
+clicks.csv,click_id,string,Primary key. Click on a recommendation.
+orders.csv,order_id,string,Primary key. Purchase order.
+orders.csv,gmv_rub,integer,"Gross merchandise value net of discount, before returns."
+orders.csv,delivery_fee_rub,integer/null,Delivery fee. Missing for ~4% of orders by design.
+orders.csv,is_returned,integer,1 if order was returned.
+orders.csv,gross_margin_rub,float,Approximate gross margin. Returned orders have small negative margin.
+products.csv,product_id,string,Primary key. Product catalog item.
+products.csv,gross_margin_rate,float,Product-level margin rate.
+support_tickets.csv,sentiment_score,float,Synthetic sentiment score from -1 to +1.

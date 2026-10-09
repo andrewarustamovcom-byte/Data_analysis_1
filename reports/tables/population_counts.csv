@@ -1,0 +1,9 @@
+﻿population,group,users,active_users
+initial_unique_assignment,control,24815,24815
+initial_unique_assignment,test,25185,25185
+main,control,24473,24473
+main,test,24828,24828
+include_bots,control,24674,24674
+include_bots,test,25026,25026
+initial_assignment_itt,control,24613,24613
+initial_assignment_itt,test,24987,24987

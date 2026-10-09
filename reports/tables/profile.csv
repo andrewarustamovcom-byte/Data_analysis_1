@@ -1,0 +1,12 @@
+﻿table,rows,columns,expected_rows,exact_duplicate_rows
+users,50000,8,50000.0,0
+experiment_assignments,50300,6,,0
+sessions,164739,9,164739.0,0
+impressions,1066434,9,1066434.0,0
+clicks,91266,7,91266.0,0
+orders,7407,14,7407.0,0
+products,4500,8,4500.0,0
+sellers,700,5,700.0,0
+support_tickets,337,7,337.0,0
+premium_subscriptions,9127,6,9127.0,0
+data_dictionary,23,4,,0
